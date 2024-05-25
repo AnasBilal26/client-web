@@ -1,0 +1,456 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.loader{
+    background-color: rgba(0, 0, 0, 0.712);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+justify-content: center;
+display: flex;
+align-items: center;
+transition: all ease 0.5s;
+}
+.load{
+
+border: 10px solid white;
+height: 60px;
+width: 60px;
+border-radius: 50%;
+border-top-color:  red;
+border-bottom-color:  red;
+animation-name: loa;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+box-shadow: 0px 0px 20px 7px red;
+}
+
+@keyframes loa{
+
+100%{
+
+transform: rotate(360deg);
+
+}
+
+
+
+
+}
+
+
+.main{
+height: 390px;
+background-image: url(./first\ image.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
+
+}
+
+.bedford{
+height: 60px;
+cursor: pointer;
+}
+.nevbar{
+
+height: 90px;
+display: flex;
+justify-content: space-between ;
+align-items: center;
+color: white;
+font-weight: bold;
+}
+.left{
+margin-left: 30px;
+
+}
+
+.right{
+display: flex;
+gap: 30px;
+font-family: serif;
+align-items: center;
+margin-right: 30px;
+}
+.firstbutton{
+font-size: 20px;
+color: white;
+height: 45px;
+width: 150px;
+border: 2px solid white;
+background-color: transparent;
+border-radius: 50px;
+cursor: pointer;
+transition: all ease 1s;
+}
+.firstbutton:hover{
+
+background-color: white;
+color: black;
+}
+
+
+
+.foundation{
+font-size: 18px;
+}
+.secondmain{
+text-align: center;
+color: white;
+margin-top: 20px;
+
+}
+.Susainability{
+font-style: italic;
+font-size: 30px;
+}
+.Starts{
+    margin-top: 10px;
+font-size: 85px;
+color: rgba(255, 255, 255, 0.953);
+}
+.secondbutton{
+margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    height: 45px;
+    width: 170px;
+    border: none;
+background-color: #44AAA2;
+    border-radius: 50px;
+cursor: pointer;
+}
+.secondbutton:hover{
+opacity: 0.7;
+}
+.menuicon{
+display: none;
+}
+.fullscreen{
+    display: none;
+}
+.fullscreensec{
+    display: none;
+}
+.thirdmain{
+border: 2px solid transparent;
+text-align: center;
+margin-top: 82px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgba(0, 0, 0, 0.797);
+
+}
+.weconserve{
+margin-top: 90px;
+
+
+}
+.someof{
+
+margin-top: 40px;
+
+}
+.all{
+font-style: italic;
+
+}
+span{
+color: green;
+}
+.fourthmain{
+
+display: flex;
+justify-content: center;
+margin-top: 100px;
+gap: 40px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bgsecpic{
+background-image: url(./image-asset.jpeg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 350px;
+width: 430px;
+transition: all ease 0.4s;
+
+}
+.bgsecpic:hover{
+box-shadow: 1px 1px 30px 7px black;
+transform: rotateY(20deg);
+opacity: 0.9;
+
+
+}
+.pageone{
+    padding-top: 50px;
+
+    text-align: center;
+
+
+}
+.fifthmain{
+
+margin-top: 100px;
+display: flex;
+justify-content: center;
+gap: 40px;
+
+}
+.rightpage{
+    transition: all ease 0.4s;
+    background-image: url(girl.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 350px;
+width: 430px;
+}
+.rightpage:hover{
+    box-shadow: 1px 1px 30px 7px black;
+    transform: rotateY(20deg);
+    opacity: 0.9;
+}    
+.leftpage{
+padding-top: 50px;
+    text-align: center;
+}
+.sixthmain{
+margin-top: 100px;
+text-align: center;
+height: 300px;
+background-color: #F7F7F7;
+font-size: 15px;
+padding-top: 70px;
+
+}
+.inputbutton{
+display: flex;
+gap: 10px;
+justify-content: center;
+
+}
+.inputone{
+height: 50px;
+width: 260px;
+outline: none;
+border: 1px solid  rgba(165, 42, 42, 0.51);
+padding-left: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fourthbutton{
+width: 130px;
+cursor: pointer;
+border: none;
+background-color: black;
+color: white;
+}
+footer{
+color: rgba(255, 255, 255, 0.803);
+background-color: #1F1F1F;
+text-align: center;
+height: 200px;
+padding-top: 60px;
+
+}
+.hidden{
+
+display: none;
+
+}
+@media only screen and (max-width:600px) {
+/* body{
+
+    background-color: red;
+} */
+ .right{
+    display: none;
+ }   
+ .Susainability{
+    font-style: italic;
+    font-size: 20px;
+    }
+    .Starts{
+        margin-top: 10px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.953);
+    }
+    .secondbutton{
+    margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        height: 45px;
+        width: 170px;
+        border: none;
+    background-color: #44AAA2;
+        border-radius: 50px; 
+    }
+    .secondmain{
+
+        display: flex;
+        justify-content: center;
+    }
+.media{
+width: 250px;
+}
+.main{
+height: 350px;
+
+
+}
+.menuicon{
+    display: block;
+    height: 40px;
+    margin-top: -17px;
+    cursor: pointer;
+    margin-right: 20px;
+    }
+   .fullscreensec{
+
+height: 100vh;
+width: 100%;
+position: fixed;
+background-color: rgba(0, 0, 0, 0.468);
+z-index: 99;
+display: block;
+right: -100%;
+   }
+    .fullscreen{
+        transition: all ease 0.6s;
+background-color: #1F1F1F;
+height: 100vh;
+width: 100%;
+position: fixed;
+width: 90%;
+right: -100%;
+display: flex;
+justify-content: space-between;
+color: rgba(255, 255, 255, 0.775);
+z-index: 999;
+font-size: 15px;
+
+}
+.cross{
+cursor: pointer;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.leftone{
+margin-left: 10px;
+
+}
+.weconserve{
+margin-top: 40px;
+}
+
+.fourthmain{
+    font-size: 10px;
+    align-items: center;
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .bgsecpic{
+    background-image: url(./image-asset.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+    transition: all ease 0.4s;
+    
+    }
+    .bgsecpic:hover{
+    
+        transform: rotateY(20deg);
+    opacity: 0.9;
+    
+    
+    }
+    .pageone{
+        padding-top: 20px;
+    
+        text-align: center;
+    
+    
+    }
+    .fifthmain{
+        font-size: 10px;
+        align-items: center;
+    flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 0px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        }
+        .rightpage{
+
+            background-image: url(girl.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 250px;
+            transition: all ease 0.4s;
+        }
+        .rightpage:hover{
+            box-shadow: 1px 1px 30px 7px black;
+            transform: rotateY(20deg);
+            opacity: 0.9;
+        }    
+        .leftpage{
+            padding-top: 20px;
+    
+            text-align: center;
+    
+        }   
+        .sixthmain{
+            margin-top: 100px;
+            text-align: center;
+            height: 300px;
+            background-color: #F7F7F7;
+            font-size: 15px;
+            padding-top: 70px;
+            
+            }
+            .inputbutton{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+          flex-direction: column;
+          align-items: center;  
+            }
+            .inputone{
+            height: 50px;
+            width: 260px;
+            outline: none;
+            border: 1px solid  rgba(165, 42, 42, 0.51);
+            padding-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .fourthbutton{
+            width: 130px;
+            cursor: pointer;
+            border: none;
+            background-color: black;
+            color: white;
+            height: 50px;
+            }
+            footer{
+
+font-size: 12px;
+
+            }
+}
